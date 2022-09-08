@@ -105,7 +105,7 @@
     border-radius: 30px;
     padding: 4%;
     margin-bottom: 15%;
-    box-shadow: 0 0 20px #949494;
+    box-shadow: 0 0 20px #c9c9c9;
 }
 
 .bouton-explorer:hover {
@@ -219,8 +219,7 @@
 
 .vignette-restaurant {
     position: relative;
-    width: 90%;
-    padding: 2px;   
+    width: 90%;  
     background-color: white;  
     border-radius: 20px; 
     margin-bottom: 5%;
@@ -362,8 +361,7 @@
     0% {
         scale: 1;
         opacity: 100%;
-        color: #ff9be9;
-        text-shadow: 0 0 7px #9bffe6;
+        text-shadow: 0 0 15px #1e1e1e;
     }
 
     75% {
@@ -438,8 +436,6 @@
     background-image: linear-gradient(#FF79DA , #9356DC);
     background-clip: text;
     -webkit-background-clip: text;
-    transition: all 800ms ease-in-out;
-
 }
 
 .bouton-jaime-checkbox input[type="checkbox"], .custom-checkbox .checked {
