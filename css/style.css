@@ -338,7 +338,7 @@
 
 
 .loader { 
-    background: linear-gradient(#ff79d9 , #9256dc);
+    background: linear-gradient(#FF79DA , #9356DC);
     position: fixed;
     width: 100%;
     height: 100%;
@@ -362,7 +362,7 @@
     0% {
         scale: 1;
         opacity: 100%;
-        color: #9bffe6;
+        color: #ff9be9;
         text-shadow: 0 0 7px #9bffe6;
     }
 
@@ -434,21 +434,12 @@
 
 
 .checked {
-    color: red;
-    animation-duration: 1s;
-    animation-name: pulse;
-    box-shadow: 0 0 0 0 #FF79DA;
-    border-radius: 50%;
-}
+    color: transparent;
+    background-image: linear-gradient(#FF79DA , #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: all 800ms ease-in-out;
 
-div.bloc-bouton-jaime {
-    height: auto;
-}
-
-@keyframes pulse {
-    to {
-        box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.01);
-    }
 }
 
 .bouton-jaime-checkbox input[type="checkbox"], .custom-checkbox .checked {
