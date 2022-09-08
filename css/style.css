@@ -73,6 +73,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .titre h1 {
@@ -448,4 +449,105 @@
 
 .custom-checkbox input[type="checkbox"]:checked~.unchecked {
     display: none;
-}               
+}     
+
+                /* RESPONSIVE DESKTOP */
+
+@media screen and (min-width:769px){
+
+                    /* HEADER */
+
+    .logo img {
+        width: 20%;
+        margin-top: 2%;
+        margin-bottom: 2%;   
+    }
+
+    .bloc-localisation {
+        background-color: #ffffff;
+        height: 80px;
+    }
+
+    .toutou {
+        background-color: #f2f2f2;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 80%;
+        padding-bottom: 10px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .cadre-saisie input {
+        width: 100%;
+    }
+
+    .localisation i { 
+        margin-right: 20px;
+    }
+
+.bloc-titre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titre h1 {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 10%;
+}
+
+.titre p {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.bloc-explorer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.bouton-explorer {
+    background: linear-gradient(#FF79DA , #9356DC);
+    font-size: 1em;
+    color: white;
+    border-radius: 30px;
+    padding: 4%;
+    margin-bottom: 15%;
+    box-shadow: 0 0 20px #c9c9c9;
+}
+
+.bouton-explorer:hover {
+    background: linear-gradient(#ff8cde , #986fc9);
+    box-shadow: 0 0 15px #1b1b1b;
+}
+
+.toutou2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    height: 350px;
+    width: 80%;
+}
+
+}                
+
