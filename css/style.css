@@ -490,53 +490,31 @@
 .bloc-titre {
     display: flex;
     justify-content: center;
-    width: 100%;
     background-color: white;
 }
 
-.titre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .titre h1 {
-    font-size: 30px;
+    font-size: 40px;
     width: 100%;
-    text-align: center;
-    margin-bottom: 3%;
-    margin-top: 10%;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .titre p {
-    font-size: 18px;
+    font-size: 28px;
     width: 100%;
-    text-align: center;
-    font-weight: 300;
 }
 
 .bloc-explorer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .bouton-explorer {
-    background: linear-gradient(#FF79DA , #9356DC);
-    font-size: 1em;
-    color: white;
-    border-radius: 30px;
-    padding: 4%;
-    margin-bottom: 15%;
-    box-shadow: 0 0 20px #c9c9c9;
-}
-
-.bouton-explorer:hover {
-    background: linear-gradient(#ff8cde , #986fc9);
-    box-shadow: 0 0 15px #1b1b1b;
+    border-radius: 50px;
+    padding: 30px;
+    margin-bottom: 0;
+    font-size: 25px;
 }
 
 .toutou2 {
