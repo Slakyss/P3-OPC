@@ -373,7 +373,8 @@
 }
 
 .bloc-image img {
-    height: auto;
+    object-fit: cover;
+    height: 400px;
     width: 80%;
     border-radius: 25px 25px 0 0;
 }
@@ -382,27 +383,144 @@
                         /* SECTION MENU */
 
 .section-menu {
-    background-color: #f2f2f2;
-    border-radius: 30px 30px 0 0;
+    background-color: white;
+    border-radius: none;
     margin-top: -50px;
     padding-bottom: 1px;
     width: 100%;
     height: auto;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toutou2{
+    background-color: #f2f2f2;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .bloc-titre-menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 5% 20px 5%;
     padding-top: 20px;      
 }
 
 .titre-menu h1 {
-    font-size: 28px;
-    font-weight: 500;
-    font-family: Shrikhand;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
+                        /* ENTREE */    
+
+
+.titre-entree {
+    margin-left: 0;
+    border-bottom: 3.2px solid #99E2D0;
+    width: 10%;
+    text-align: center;   
 }
+
+.titre-entree h2 {
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 20px;   
+}      
+
+.bloc-menu {
+    width: 100%;  
+}
+
+/* ------------------------------------------------------- */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 70px; 
+    overflow: hidden;
+}
+
+.texte-menu {
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.texte-menu h3 {
+    margin-bottom: 2%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.texte-menu p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Prix-menu {
+    margin-left: auto;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-right: 3%
+}
+
+/* ------------------------------------------------------- */
+
+.bloc-commander {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.bouton-commander { 
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+            /* FOOTER */
+
+
+    .footer {
+        background-color: white;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .toutou7 {
+        width: 80%;
+        height: 150px;
+        background-color: rgb(62, 62, 62);
+        border-radius: 0 0 25px 25px;
+    }
+
+    .toutou8 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .titre-footer p {
+        font-family: Shrikhand;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 35px;
+        margin-top: 25px;
+        text-align: center;
+    }                  
+
+}                
