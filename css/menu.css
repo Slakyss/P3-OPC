@@ -306,3 +306,20 @@
 .delay-4 {
     animation-delay: 1.5s;
 }
+
+
+
+.all-bloc {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 100%;
+}
+
+.toutou3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: stretch;
+    width: 80%;
+}
