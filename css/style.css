@@ -119,8 +119,7 @@
 .toutou3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    align-items: stretch;
+    justify-content:space-around;   
 }
 
 
@@ -137,7 +136,8 @@
     justify-content: center;
     height: auto;
     width: 90%;
-    margin-bottom: 5%;    
+    margin-bottom: 5%;
+    align-items: stretch;    
 }
 
 .item-123:hover {
