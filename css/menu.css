@@ -14,7 +14,7 @@
     
 }
 
-.toutou1 {
+.logo-container {
     position: relative;
     display: flex;
     align-items: center;
@@ -336,7 +336,7 @@
         width: 100%;
     }
 
-    .toutou1 {
+    .logo-container {
         position: relative; 
         display: flex;
         width: 80%;
@@ -388,7 +388,7 @@
     justify-content: center;
 }
 
-.toutou2{
+.section-menu-container{
     background-color: #f2f2f2;
     width: 80%;
     display: flex;
@@ -470,7 +470,7 @@
 
 }
 
-.toutou3 {
+.menu-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -509,14 +509,14 @@
         justify-content: center;
     }
 
-    .toutou7 {
+    .footer-container {
         width: 80%;
         height: 150px;
         background-color: rgb(62, 62, 62);
         border-radius: 0 0 25px 25px;
     }
 
-    .toutou8 {
+    .icone-footer-container {
         display: flex;
         justify-content: space-around;
         align-items: center;
