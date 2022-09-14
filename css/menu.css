@@ -75,14 +75,13 @@
 
 .bloc-titre-menu {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 5% 20px 5%;
+    justify-content: space-around;
+    margin: 0 25px 20px 0;
     padding-top: 20px;      
 }
 
 .titre-menu h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
     font-family: Shrikhand;
 }
@@ -259,31 +258,24 @@
                 /* ANIM LIKE CHECKBOX */
 
 
-.fa-regular .fa-heart .unchecked {
-    font-size: 120px;
-}
+.bloc-bouton-jaime i {
+    position: absolute;   
+    font-size: 30px;
+}               
 
 .checked {
     color: transparent;
     background-image: linear-gradient(#FF79DA , #9356DC);
     background-clip: text;
     -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 0.5s ease-out;
 }
 
-.bouton-jaime-checkbox {
-    font-size: 25px;
-}
+.checked:hover {
+    opacity: 1;
+    transform: scale(1.1);
 
-.bouton-jaime-checkbox input[type="checkbox"], .custom-checkbox .checked {
-  display: none;
-}
-
-.custom-checkbox input[type="checkbox"]:checked~.checked {
-    display: inline-block;
-}
-
-.custom-checkbox input[type="checkbox"]:checked~.unchecked {
-    display: none;
 }
 
 
@@ -529,6 +521,15 @@
         margin-bottom: 35px;
         margin-top: 25px;
         text-align: center;
-    }                  
+    }   
+    
+                /* COEUR LIKE */
+
+    .bloc-bouton-jaime i {
+        position: absolute;
+        top: 3.5%;
+        font-size: 30px;
+        right: %;
+}  
 
 }                
