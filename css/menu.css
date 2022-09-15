@@ -123,6 +123,10 @@
     overflow: hidden;
 }
 
+.menu:hover {
+    cursor: pointer;
+}
+
 .texte-menu {
     margin-left: 5%;
     overflow: hidden;
@@ -175,6 +179,7 @@
 .bouton-commander:hover {
     background: linear-gradient(#ff8cde , #986fc9);
     box-shadow: 0 0 15px #1b1b1b;
+    cursor: pointer;
 }
 
 
@@ -271,6 +276,7 @@
 .checked:hover {
     opacity: 1;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
