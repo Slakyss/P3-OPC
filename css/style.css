@@ -112,6 +112,7 @@
 .bouton-explorer:hover {
     background: linear-gradient(#ff8cde , #986fc9);
     box-shadow: 0 0 15px #1b1b1b;
+    cursor: pointer;
 }
 
 
@@ -140,6 +141,10 @@
     width: 90%;
     margin-bottom: 5%;
     align-items: stretch;    
+}
+
+.bloc-123:hover {
+    cursor: pointer;
 }
 
 .item-123:hover {
